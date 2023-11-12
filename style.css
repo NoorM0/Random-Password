@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto Mono';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgcolor : #415A77;
+    --textC: #E0E1DD;
+    --spanC: #778DA9;
+}
+
+body{
+    background-color: var(--bgcolor) ;
+    color: var(--textC);
+}
+
+span{
+    color: var(--spanC);
+}
+
+h1{
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+hr{
+    width: 20%;
+    margin-left: 10%;
+    border: solid 2px;
+}
+
+.container{
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 40%;
+    height: 130px;
+    border-radius: 15px;
+    background-image: url(background-zeros-ones-blue-colors_444390-19056.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 8%;
+    margin-left: 6%;
+    margin-right: 5%;
+    border: none;
+    padding-left: 20px;
+}
+
+input::placeholder{
+    text-align: start;
+}
+
+i{
+    font-size: 30px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 7%;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 28%;
+    border: none;
+    color: var(--spanC);
+    font-weight:bold ;
+    background-color: var(--textC);
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--textC);
+    background-color: var(--spanC);
+}
+
